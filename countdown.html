@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="countdown.css">
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="full-height">
+	<div class="col">
+		<div class="row">
+			<div id="wireframe">	
+				<div id="contenu">
+					<form name="chronoForm">
+						<div id="Compteur" class="Compteur"> </div>
+						<br/>
+    					<input class="button" type="button" name="startstop" value="start!" onClick="chronoStart()" />
+    					<input class="button" type="button" name="reset" value="reset!" onClick="chronoReset()" />
+    					<input type="submit" class="change-btn" value="Changer">
+    					<input id="setTime" class="cptinput" style="width: 50px;" type="text">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+
+<script src="countdown.js"></script>
+
+</body>
+
+</html>
